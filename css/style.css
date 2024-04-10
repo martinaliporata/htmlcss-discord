@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* perché non vedo immagine */
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.ulheader {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1%;
+    background-color: #255ee9;
+    color: white;
+}
+
+.firstbutton {
+    background-color: white;
+    border: solid #255ee9;
+    padding: 0.2rem 2rem;
+    border-radius: 10rem;
+    margin-bottom: 1rem;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 7% 15%;
+    background-image: url(../img/jumbo.png);
+}
+
+.title {
+    font-size: 60px;
+    color: white;
+}
+
+.jumbotron-paragraph {
+    padding-top: 4% 20% 3%;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 3% 15%;
+}
+
+.downloadbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.downloadbuttons>button {
+    border: solid 10px blue;
+    padding: 0.1rem 1rem;
+    border-radius: 10rem;
+    margin: 1rem 2rem;
+}
+
+/* perché non funziona il colore */
+.downloadbuttons > button:last-child {
+    background-color: #23272a;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;    
+    margin-right: 5%;
+}
+
+.text-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    width: 40%;
+}
+
+.img-main {
+    width: 60;
+    padding-left: 4rem;
+}
+
+/* perché ho dovuto specificare row? non è default? */
+.primasezione, .terzasezione {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.secondasezione {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+.quartasezione {
+    display: flex;
+    flex-direction: column;
+}
+
+/* perché non si vede? */
+#newadventure {
+    background-image: url(./img/stars.svg);
+}
+
+#lastbutton {
+    margin: 3rem 30rem;
+}
+
+.lastlastsection {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;    
+    padding: 2rem;
+}
+
+footer {
+    background-color: black;
+}
+
+.navigator {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+}
+
+.ulfooter, .textfooter {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.socialnetwork, .ita {
+    width: 1rem;
+    margin: 1rem;
+    vertical-align: middle;
+}
+
+.ulheader>li {
+    padding: 1.5rem;
+    margin: 0.7rem;
+}
+
+.ulfooter>li, .pfooter {
+    padding: 0.5rem;
+}
