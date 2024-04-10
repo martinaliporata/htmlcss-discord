@@ -159,7 +159,7 @@ main>div {
     font-size: 2rem;
 }
 
-#lastbutton {
+#lastbutton, .lastlastsection>button {
     margin: 3rem 32rem;
     border: solid 10px transparent;
     padding: 0.1rem 1rem;
@@ -169,11 +169,16 @@ main>div {
     background-color: #7289da;
 }
 
+.lastlastsection>button {
+    margin: 1rem 2rem;
+}
+
+/* messo margine per accorciare br, ma non funziona */
 .lastlastsection {
     display: flex;
     justify-content: space-between;
-    margin: 5%;    
-    padding: 2rem;
+    margin: 1rem 5rem;
+    padding-bottom: 5rem; 
 }
 
 footer {
