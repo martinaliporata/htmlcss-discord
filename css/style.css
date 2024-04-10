@@ -207,13 +207,15 @@ footer {
 .language {
     display: flex;
     flex-direction: row;
+}
+
+.textalign {
     vertical-align: middle;
 }
 
 .socialnetwork, .ita {
     width: 1rem;
     margin: 1rem;
-    vertical-align: middle;
 }
 
 .ulheader>li {
